@@ -106,7 +106,7 @@ RUN_CONFIG = {
     # to have a screenshot taken, which will be saved along with its raw-html. This data will then be prepped ready to be used in
     # LabTools for ML training.
     # Set the sampling_rate to a fractional percentage of the desired rate. e.g. 0.1 = 10% of pages will be sampled, or 1.0 = 100% of pages will be sampled.
-    "SAMPLING_RATE": 0.001,
+    "SAMPLING_RATE": 0,
     "SAMPLING_MAX_SCREENSHOT_HEIGHT_PX": 1200,
     "SAMPLING_LOCAL_FOLDER": join(MAIN_DIR, "output", "sampling"),
     # "SAMPLING_DBNAME": "samplingdb", # direct db insert not (yet) implemented, use the rest API below.
