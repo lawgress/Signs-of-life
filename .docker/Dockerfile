@@ -50,4 +50,4 @@ COPY .docker/setup_tok_models.py /signs-of-life/setup_tok_models.py
 RUN python -u /signs-of-life/setup_tok_models.py
 
 #ENTRYPOINT ["tail", "-f", "/dev/null"]
-CMD ["sh", "/signs-of-life/entrypoint.sh"]
+CMD ["sh", "entrypoint.sh"]
